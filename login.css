@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background: #151515;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login {
+    position: relative;
+    width: 30%;
+    height: 40%;
+    border-radius: 52px;
+    background: #151515;
+    box-shadow:  5px 5px 10px #0f0f0f,
+                 -5px -5px 10px #1b1b1b;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login .title{
+    margin-top: 50px;
+    color: #ffffff;
+}
+.login .title p { 
+    font-weight: lighter;
+
+}
+.title h2 span{
+    color: #CEDA0B;
+}
+.select{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+    background: #151515;
+    box-shadow: inset 5px 5px 10px #0f0f0f,
+                inset -5px -5px 10px #1b1b1b;
+}
+.select a{
+    text-align: center;
+    padding: 15px 15px 15px 10px;
+    width: 200px;
+    color: #151515;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #dce90c, #b9c40a);
+    font-size: x-small;
+    transition: all 0.5s;
+}
+.select a:hover{
+    background: #ffffff;
+    color: #CEDA0B;
+}
+.foot{
+    position: absolute;
+    bottom: 2%;
+    color: #ffffff;
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input-user{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    top: 40%;
+    width: 100%;
+}
+.input-user input[type='text'],input[type='password']{
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.input-user input[type='submit']{
+   padding: 10px 20px 10px 20px;
+   border-radius: 10px;
+   background-color: #CEDA0B;
+   cursor: pointer;
+   font-weight: bold;
+}
+.input-user input[type='text']:focus,input[type='password']:focus{
+    outline: none;
+    box-shadow: 0 0 3pt 2pt #CEDA0B;
+}
+.input-user a{
+    color: #CEDA0B;
+}
+.input-user a:hover{
+    color: #ffffff;
+}
+
+.user{
+    color: #ffffff;
+    margin-top: 20px;
+}
+.login-reg2{
+    height: 60%;
+}
+.login-reg3{
+    height: 50%;
+}
+.login-reg4{
+    width: 60%;
+    height: 90%;
+}
+.admin{
+    margin-top: 8px;
+    color: #ffffff;
+}
+.back a{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: #CEDA0B;
+    transition: all 0.5s;
+}
+.back a:hover{
+    background: #CEDA0B;
+    padding: 10px;
+    color: #151515;
+    border-radius: 10px;
+}
+
+.login-reg4 .input-user{
+    top: 25%;
+}
+.login-reg4 input{
+    width: 60%;
+}
+.login-reg4 input[type="submit"]{
+    width: 20%;
+}

@@ -1,0 +1,8 @@
+<?php 
+    require_once "config.php"; 
+
+    if (!isset($_SESSION['username'])) {
+        header('location: login_admin.php');
+        $_SESSION['error'] = "You must log in first";
+    }
+?>
